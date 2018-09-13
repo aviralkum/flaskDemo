@@ -11,8 +11,8 @@ mongo = PyMongo(app)
 @app.route('/add')
 
 def add():
-    user = mongo.db.users
-    user.insert({'name':'Anthony'})
+    #user = mongo.db.users
+    # user.insert({'name':'Anthony'})
     return 'Added User'
 
 if __name__ == '__main__':
